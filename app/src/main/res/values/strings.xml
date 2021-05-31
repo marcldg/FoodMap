@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FindMeFood</string>
+    <string name="add_a_new_place">ADD A NEW PLACE</string>
+    <string name="show_on_map">SHOW ON MAP</string>
+    <string name="title_activity_map">Map</string>
+    <string name="get_current_location">GET CURRENT LOCATION</string>
+    <string name="save">SAVE</string>
+    <string name="enter_restaurant_name">Enter restaurant name:</string>
+    <string name="enter_the_location">Enter the location:</string>
+    <string name="title_activity_show_all_map">Map</string>
+</resources>

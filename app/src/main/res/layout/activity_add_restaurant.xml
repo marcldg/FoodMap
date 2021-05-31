@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#734536"
+    android:orientation="vertical"
+    tools:context=".AddRestaurant">
+
+    <EditText
+        android:id="@+id/placeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:ems="20"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:hint="@string/enter_restaurant_name"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/locationField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:ems="20"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:hint="@string/enter_the_location"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/getCurrentLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/get_current_location"
+        android:textColor="#000000"
+        app:backgroundTint="#F3E8D4"
+        android:onClick="getLocation"/>
+
+    <Button
+        android:id="@+id/showOnMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/show_on_map"
+        android:textColor="#000000"
+        app:backgroundTint="#F3E8D4"/>
+
+    <Button
+        android:id="@+id/saveRestaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/save"
+        android:textColor="#000000"
+        app:backgroundTint="#656361" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
